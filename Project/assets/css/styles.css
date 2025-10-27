@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(135deg, #001F54, #0A2463, #3E92CC);
+    color: #212529;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+header {
+    background: linear-gradient(90deg, #0A2463, #3E92CC);
+}
+
+.card {
+    border-radius: 15px;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.btn-primary {
+    background-color: #3E92CC;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0A2463;
+}
+
+.btn-outline-light:hover {
+    background-color: #ffffff22;
+}
+
+h1, h2 {
+    text-shadow: 0 0 5px #00000033;
+}
+
+p {
+    line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+    .card {
+        padding: 20px;
+    }
+}
